@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router';
-import { AddReview } from '../reviews/AddReview';
+import AddReview from '../reviews/AddReview';
 import AllBusinesses from '../businesses/allBusinesses/AllBusinesses';
 import LoginPage from '../Login';
 import Signup from '../Signup'
