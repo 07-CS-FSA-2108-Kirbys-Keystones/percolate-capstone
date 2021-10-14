@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Redirect } from 'react-router-dom';
-import { authenticateSignup } from '../store';
+import { authenticateSignup } from '../../store';
 
 const Signup = () => {
   const dispatch = useDispatch();
@@ -89,7 +89,7 @@ const Signup = () => {
       <div className='nav'>
         <div id='navContent'>
           <span>Home</span>
-          <span>Feedback</span>
+          <span>About</span>
           <span>Contact Us</span>
         </div>
         <div id='blank'></div>

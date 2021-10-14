@@ -6,7 +6,7 @@ const initialState = {
 };
 
 //==================== REDUCER FUNCTION ====================
-export default function businesssesReducer(state = initialState, action) {
+export default function reviewReducer(state = initialState, action) {
   switch (action.type) {
     default:
       return state;

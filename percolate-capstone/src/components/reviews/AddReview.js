@@ -87,7 +87,7 @@ class AddReview extends React.Component {
 
 const mapState = () => ({});
 const mapDispatch = (dispatch) => ({
-  addR: (review) => dispatch(addReview(review))
+  addR: (review) => dispatch(addReview(review)),
 });
 
 export default connect(mapState, mapDispatch)(AddReview);

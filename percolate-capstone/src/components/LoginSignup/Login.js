@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, Redirect } from 'react-router-dom';
-import { authenticate} from '../store';
+import { authenticate} from '../../store';
 // import 'simplebar/dist/simplebar.min.css'
 const LoginPage = () => {
   const dispatch = useDispatch();
@@ -20,7 +20,7 @@ const LoginPage = () => {
       <div className='nav'>
         <div id='navContent'>
           <span>Home</span>
-          <span>Feedback</span>
+          <span>About</span>
           <span>Contact Us</span>
         </div>
         <div id='blank'></div>
@@ -60,7 +60,7 @@ const LoginPage = () => {
                   Log In
                 </button>
               </div>
-              <Link className='emailBox'to='/signup'>
+              <Link className='emailBox' to='/signup'>
                 <button className='signup'>Create your account</button>
               </Link>
             </form>
@@ -69,7 +69,7 @@ const LoginPage = () => {
         </div>
       )}
       <div className='bottomBar'>
-        <div id='bottomText'>The home to all your coffee life.</div>
+        <div id='bottomText'>The home to all your coffee cravings.</div>
       </div>
     </div>
   );
